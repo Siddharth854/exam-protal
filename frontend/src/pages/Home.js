@@ -25,7 +25,7 @@ useEffect(()=>{
     }
 
     try {
-      const response = await fetch('http://localhost:8080/products', {
+      const response = await fetch('https://exam-protal.vercel.app/products', {
         headers: { Authorization: token },
       });
       const result = await response.json();
