@@ -29,7 +29,7 @@ function Login() {
             return handleError('Please fill in all fields');
         }
         try{
-            const url = 'https://exam-protal.vercel.app/auth/login';
+            const url = 'https://exam-protal-backend.onrender.com/auth/login';
             const response = await fetch(url, {
                 method: 'POST',
                 headers: {
