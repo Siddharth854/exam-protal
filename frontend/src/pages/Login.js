@@ -29,7 +29,7 @@ function Login() {
             return handleError('Please fill in all fields');
         }
         try{
-            const url = '${process.env.REACT_APP_API_URI}/auth/login';
+            const url = 'https://exam-protal.vercel.app/auth/login';
             const response = await fetch(url, {
                 method: 'POST',
                 headers: {
