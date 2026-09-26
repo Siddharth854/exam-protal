@@ -30,7 +30,7 @@ function Signup() {
             return handleError('Please fill in all fields');
         }
         try{
-            const url = 'http://localhost:8080/auth/signup';
+            const url = 'https://exam-protal.vercel.app/auth/signup';
             const response = await fetch(url, {
                 method: 'POST',
                 headers: {
